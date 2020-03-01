@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<p><b>Bài 5 :</b>  Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ.</p>
+    <label for="diligent">diligent-mark:</label>
+    <input type="text" size="10px" id="diligent">
+    <label for="mid-term-mark">mid-term-mark:</label>
+    <input type="text" size="10px" id="mid-term-mark">
+    <label for="final-term-mark">final-term-mark:</label>
+    <input type="text" size="10px" id="final-term-mark">
+    <input type="button" value="Rank" onclick="calRank()">
+    <p><i>Notes:</i> Formula : Rank = ((diligent-mark)*2 + (mid-term-mark)*2 + (final-term-mark)*6)/10 </p>
+    <p id="result5"><br></p>
+</body>
+<script src="js/appB5.js"></script>
+</html>
